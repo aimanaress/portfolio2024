@@ -15,9 +15,8 @@ function Career() {
         <div className="grid grid-cols-2 gap-2 w-full">
           {skill.map((item) => (
             <div
-              className={`col-start-${item.key % 2 === 0 ? 2 : 1} row-start-${
-                item.key
-              }`}
+              className={`col-start-${item.key % 2 === 0 ? 2 : 1}
+              row-start-${item.key}`}
             >
               <ExperienceCard name={item.name} />
             </div>

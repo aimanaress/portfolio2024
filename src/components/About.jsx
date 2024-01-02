@@ -1,4 +1,8 @@
 import React from "react";
+import { FaLinkedin } from "react-icons/fa";
+import { FaBehanceSquare } from "react-icons/fa";
+import { FaGithubSquare } from "react-icons/fa";
+import { IconContext } from "react-icons/lib";
 
 function About() {
   return (
@@ -11,6 +15,11 @@ function About() {
         experience. Eager to transition into Front-End Development, I thrive on
         continuous learning and adaptability. Let's connect and explore how I
         can contribute to your team's success!
+      </div>
+      <div className="mt-6 flex flex-row">
+        <IconContext.Provider value={{ color: "#000000", size: 40 }}>
+          <FaLinkedin /> <FaBehanceSquare /> <FaGithubSquare />
+        </IconContext.Provider>
       </div>
     </div>
   );

@@ -22,6 +22,10 @@ function Educations() {
               <ExperienceCard name={item.name} />
             </div>
           ))}
+
+          {/* <div className="col-start-1 row-start-1">{skill[0].name}</div>
+          <div className="col-start-2 row-start-2">{skill[1].name}</div>
+          <div className="col-start-1 row-start-3">{skill[2].name}</div> */}
         </div>
       </div>
     </div>
