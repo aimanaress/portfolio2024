@@ -2,7 +2,7 @@ import React from "react";
 
 function About() {
   return (
-    <div className="flex flex-col items-center m-36">
+    <div className="flex flex-col items-center mt-36">
       <div className="text-8xl text-center font-bold m-6 font-bebas">
         AIMAN ARES
       </div>

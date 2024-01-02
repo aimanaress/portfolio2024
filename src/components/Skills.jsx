@@ -21,7 +21,7 @@ function Skills() {
   ];
 
   return (
-    <div className="mt-12">
+    <div className="mt-36">
       <div className="flex flex-col items-center">
         <h2 className="font-bebas text-2xl font-bold">Skills</h2>
         <div className="grid grid-cols-3 w-full gap-2 xl:grid-cols-5">
