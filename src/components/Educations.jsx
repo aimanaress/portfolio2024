@@ -3,15 +3,33 @@ import ExperienceCard from "./ExperienceCard";
 
 function Educations() {
   const skill = [
-    { key: 1, name: "Bachelor of Information Technology" },
-    { key: 2, name: "Foundation in Architecture and Environmental Design" },
-    { key: 3, name: "Udemy" },
+    {
+      key: 1,
+      name: "Bachelor of Information Technology",
+      organization: "International Islamic University Malaysia",
+      duration: "2018 - 2023",
+    },
+    {
+      key: 2,
+      name: "Foundation in Architecture and Environmental Design",
+      organization: "International Islamic University Malaysia",
+      duration: "2017 - 2018",
+    },
+    {
+      key: 3,
+      name: "Frontend using React.js",
+      organization: "Udemy",
+      duration: "2023",
+    },
   ];
 
   return (
-    <div className="mt-36">
+    <div className="mb-10 p-12">
       <div className="flex flex-col items-center">
-        <h2 className="font-bebas text-2xl font-bold">Educations</h2>
+        <div className="pt-2 pb-5 flex flex-col items-center">
+          <h2 className="font-bebas text-4xl font-bold">Educations</h2>
+          <p className="text-gray-200">Dummy text</p>
+        </div>
         <div className="grid grid-cols-2 gap-2 w-full">
           {skill.map((item) => (
             <div
@@ -19,7 +37,11 @@ function Educations() {
                 item.key
               }`}
             >
-              <ExperienceCard name={item.name} />
+              <ExperienceCard
+                name={item.name}
+                organization={item.organization}
+                duration={item.duration}
+              />
             </div>
           ))}
 

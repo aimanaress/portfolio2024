@@ -3,27 +3,40 @@ import SkillCard from "./SkillCard";
 
 function Skills() {
   const skill = [
-    { name: "Laravel" },
-    { name: "PHP" },
+    //Frontend
+    { name: "CSS" },
+    { name: "HTML" },
+    { name: "JavaScript" },
+    { name: "Bootstrap" },
+    { name: "React.js" },
     { name: "Tailwind CSS" },
-    { name: "Laravel" },
+    { name: "Node.js" },
+
+    //Others
+    { name: "C++" },
+    { name: "Java" },
     { name: "PHP" },
-    { name: "Tailwind CSS" },
     { name: "Laravel" },
-    { name: "PHP" },
-    { name: "Tailwind CSS" },
-    { name: "Laravel" },
-    { name: "PHP" },
-    { name: "Tailwind CSS" },
-    { name: "Laravel" },
-    { name: "PHP" },
-    { name: "Tailwind CSS" },
+    { name: "MySQL" },
+    { name: "SQL" },
+    { name: "Flutter" },
+    { name: "Firebase" },
+
+    //Design
+    { name: "Photoshop" },
+    { name: "Illustrator" },
+    { name: "Affinity Designer" },
+    { name: "Affinity Photo" },
+    { name: "Blender 3D" },
   ];
 
   return (
-    <div className="mt-36">
+    <div className="mb-10 p-12">
       <div className="flex flex-col items-center">
-        <h2 className="font-bebas text-2xl font-bold">Skills</h2>
+        <div className="pt-2 pb-5 flex flex-col items-center">
+          <h2 className="font-bebas text-4xl font-bold">Skills</h2>
+          <p className="text-gray-200">Dummy Text</p>
+        </div>
         <div className="grid grid-cols-3 w-full gap-2 xl:grid-cols-5">
           {skill.map((item) => (
             <SkillCard name={item.name} />

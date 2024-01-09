@@ -2,11 +2,13 @@ import React from "react";
 
 function Connect() {
   return (
-    <div className="mt-36">
+    <div className="mb-10 px-12 pt-12 pb-36">
       <div className="flex flex-col items-center">
-        <h2 className="font-bebas text-2xl font-bold">Connect</h2>
-
-        <div className="mt-16 w-full xl:w-2/3">
+        <div className="pt-2 pb-5 flex flex-col items-center">
+          <h2 className="font-bebas text-4xl font-bold">Connect</h2>
+          <p className="text-gray-200">Dummy text</p>
+        </div>
+        <div className="w-full xl:w-2/3">
           <form className="">
             <div className="grid gap-2 mb-2 md:grid-cols-2">
               <div>

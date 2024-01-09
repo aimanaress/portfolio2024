@@ -10,9 +10,24 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #001f3f;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+h1,
+h2 {
+  color: #ffd700;
+}
+/* 
+p,
+h3 {
+  color: white;
+} */
+
+.card {
+  color: #001f3f;
 }
