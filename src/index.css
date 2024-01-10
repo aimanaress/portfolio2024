@@ -10,7 +10,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #001f3f;
+  background: linear-gradient(360deg, #1c1c1c 10%, #494949 360%);
 }
 
 code {
@@ -20,14 +20,9 @@ code {
 
 h1,
 h2 {
-  color: #ffd700;
+  color: #ddff00;
 }
-/* 
-p,
-h3 {
-  color: white;
-} */
 
-.card {
-  color: #001f3f;
+p {
+  text-align: center;
 }

@@ -24,7 +24,7 @@ function Educations() {
   ];
 
   return (
-    <div className="mb-10 p-12">
+    <div className="mb-10 py-12">
       <div className="flex flex-col items-center">
         <div className="pt-2 pb-5 flex flex-col items-center">
           <h2 className="font-bebas text-4xl font-bold">Educations</h2>

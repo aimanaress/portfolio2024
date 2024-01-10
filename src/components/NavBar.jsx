@@ -12,13 +12,13 @@ function NavBar() {
   ];
 
   return (
-    <div className="invisible md:visible bg-black flex flex-col items-center h-24 pt-3 text-white">
+    <div className="invisible md:visible bg-black flex flex-col items-center p-3 text-white fixed w-full top-0 left-0">
       {/* Desktop Navigation */}
       <ul className="flex">
         {navItems.map((item) => (
           <li
             key={item.id}
-            className="p-3 hover:bg-[#00df9a] rounded-md m-2 cursor-pointer duration-300 hover:text-black"
+            className="px-3 py-1 hover:bg-[#dfff06] rounded-md m-2 cursor-pointer duration-300 hover:text-black"
           >
             {item.label}
           </li>

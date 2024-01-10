@@ -6,11 +6,11 @@ import { IconContext } from "react-icons/lib";
 
 function About() {
   return (
-    <div className="flex flex-col items-center p-12 mt-72 mb-72">
+    <div className="flex flex-col items-center py-12 mt-72 mb-72">
       <h1 className="text-9xl text-center font-bold m-6 font-bebas">
         AIMAN ARES
       </h1>
-      <p className="text-center w-11/12 md:w-2/3">
+      <p className="text-gray-200 text-center w-11/12 md:w-2/3">
         Recent IT graduate passionate about design with 6 years of creative
         experience. Eager to transition into Front-End Development, I thrive on
         continuous learning and adaptability. Let's connect and explore how I
