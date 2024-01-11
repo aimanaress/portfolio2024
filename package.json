@@ -1,7 +1,6 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://aimanares-portfolio.vercel.app/",
   "private": true,
   "dependencies": {
     "@headlessui/react": "^1.7.17",
