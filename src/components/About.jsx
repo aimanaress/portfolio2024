@@ -19,7 +19,15 @@ function About() {
         </p>
         <div className="mt-12 flex flex-row">
           <IconContext.Provider value={{ color: "#FFF", size: 40 }}>
-            <FaLinkedin /> <FaBehanceSquare /> <FaGithubSquare />
+            <a href="https://www.linkedin.com/in/aimanares/">
+              <FaLinkedin />
+            </a>
+            <a href="https://www.behance.net/aimanares">
+              <FaBehanceSquare />
+            </a>
+            <a href="https://github.com/aimanaress">
+              <FaGithubSquare />
+            </a>
           </IconContext.Provider>
         </div>
       </div>

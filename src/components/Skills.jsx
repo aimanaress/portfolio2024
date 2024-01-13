@@ -36,7 +36,7 @@ function Skills() {
       <div className="flex flex-col items-center">
         <div className="pt-2 pb-5 flex flex-col items-center">
           <h2 className="font-bebas text-4xl font-bold">Skills</h2>
-          <p className="text-gray-200">Dummy Text</p>
+          <p className="text-gray-200">Some skills that I possess.</p>
         </div>
         <div className="grid grid-cols-2 w-full gap-2 md:grid-cols-3 xl:grid-cols-5">
           {skill.map((item) => (
