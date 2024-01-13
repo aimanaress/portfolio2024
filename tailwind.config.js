@@ -6,6 +6,10 @@ module.exports = {
       fontFamily: {
         bebas: ["Bebas Neue"],
       },
+      screens: {
+        tall: { raw: "(min-height: 500px)" },
+        short: { raw: "(min-height: 10px)" },
+      },
     },
   },
   plugins: [],

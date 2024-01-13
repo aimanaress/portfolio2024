@@ -6,7 +6,7 @@ import { IconContext } from "react-icons/lib";
 
 function About() {
   return (
-    <div className="flex h-screen items-center">
+    <div className="flex short:mt-9 tall:h-screen items-center">
       <div className="flex flex-col items-center py-12 ">
         <h1 className="text-9xl text-center font-bold m-6 font-bebas">
           AIMAN ARES
