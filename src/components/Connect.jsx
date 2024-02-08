@@ -35,7 +35,9 @@ function Connect() {
       <div className="flex flex-col items-center">
         <div className="pt-2 pb-5 flex flex-col items-center">
           <h2 className="font-bebas text-4xl font-bold">Connect</h2>
-          <p className="text-gray-200">Dummy text</p>
+          <p className="text-gray-200">
+            Fill in the form below. Looking forward to connect with you!
+          </p>
         </div>
         <div className="w-full xl:w-2/3">
           <form className="">
