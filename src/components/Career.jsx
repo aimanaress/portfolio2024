@@ -7,7 +7,7 @@ function Career() {
       key: 1,
       name: "Digital Designer",
       organization: "Inmagine",
-      duration: "Jan 2023 - Present",
+      duration: "July 2022 - Jan 2024",
     },
     {
       key: 2,
@@ -15,7 +15,6 @@ function Career() {
       organization: "Freelance",
       duration: "2017 - Present",
     },
-    // { key: 3, name: "Udemy" },
   ];
 
   return (
